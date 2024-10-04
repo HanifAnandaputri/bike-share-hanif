@@ -26,8 +26,8 @@ Sumber Data: [Bike Sharing Dataset](https://www.kaggle.com/datasets/lakshmi25npa
 st.write(dashboard_description)
 
 # Memuat Data
-day_df = pd.read_csv(r'Dashboard\day.csv')
-clean_df = pd.read_csv(r'Dashboard\clean_bike_share_data.csv')
+day_df = pd.read_csv(r'Dashboard/day.csv')
+clean_df = pd.read_csv(r'Dashboard/clean_bike_share_data.csv')
 
 # Menambahkan Sidebar untuk Filter
 st.sidebar.header("Filter Data")
