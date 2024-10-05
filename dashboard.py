@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Judul Dashboard
-st.title("Bike Share Insight ")
+st.title("Seasonal and Weather Impacts on Bike Share (2011-2012)")
 
 # Deskripsi Dashboard
 dashboard_description = """
